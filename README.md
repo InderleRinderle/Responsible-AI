@@ -115,7 +115,7 @@ The source data producers are the patients at the psychology clinic. Their repor
 
 <!-- This section describes the annotation process such as annotation tools used in the process, the amount of data annotated, annotation guidelines provided to the annotators, interannotator statistics, annotation validation, etc. -->
 
-While there is not any direct annotation used on this dataset it should be noted that the original dataset was transferred onto [Kaggle](https://www.kaggle.com/datasets/cid007/mental-disorder-classification/data) by Chirag Desai. It is unclear if Chirag Desai further formatted the data into the easily digestible format that it is currently presented with on Kaggle.
+While there is not any direct annotation used on this dataset it should be noted that the original dataset was transferred onto [Kaggle](https://www.kaggle.com/datasets/cid007/mental-disorder-classification/data) by Chirag Desai. It is unclear if Chirag Desai was responsible for further editing to present the data in the format currently shown on Kaggle.
 
 #### Personal and Sensitive Information
 
