@@ -127,13 +127,21 @@ This dataset contains patient health data which is personal and sensitive inform
 
 <!-- This section is meant to convey both technical and sociotechnical limitations. -->
 
-{{ bias_risks_limitations | default("[More Information Needed]", true)}}
+- As all the data is from a singular clinic, there is inherent bias in the demographic variety that would receive care there. Additionally, there may be bias in how medical professionals prescribe diagnoses for that specific clinic. 
+- Additionally, any demographic biases that may be present among patients are unknown and cannot be interpreted through this dataset due to the protected nature of patient information.
+- Furthermore, the dataset is relatively small for each diagnosis, and should not be considered comprehensive.
+- While the 17 symptoms listed provide a large scope, it is by no means enough information for overall diagnosis. Psychiatrists/psychologists look at a variety of factors alongside these self-reported symptoms when determining diagnosis for patients. This dataset does not encompass all of those other factors.
+  - Further information on the process to receive a diagnosis is outlined here by [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/mental-illness/diagnosis-treatment/drc-20374974).
+- The use of “normal” as a category within this dataset may be misleading as those patients may exhibit traits and behaviors that could lead to a different diagnosis beyond the three mentioned within this dataset.
 
 ### Recommendations
 
 <!-- This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. -->
 
-{{ bias_recommendations | default("Users should be made aware of the risks, biases and limitations of the dataset. More information needed for further recommendations.", true)}}
+- The formal diagnosis of any psychiatric condition can come with both stigmatization and burden for the individual, so caution must be taken to prevent the use of datasets like this one for diagnosis.
+- Further implementation of this dataset should continue to take precautions to ensure the health information of the patients within the dataset remain anonymous and non-identifiable.
+- Additionally, care should be taken with the implementation of machine learning in assisting the treatment and diagnosis of mental health disorders due to the potential consequences and outcomes.
+
 
 ## Citation
 
