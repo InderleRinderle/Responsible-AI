@@ -72,7 +72,7 @@ The Normal category refers to the individuals using therapy time for specialized
 
 <!-- Motivation for the creation of this dataset. -->
 
-{{ curation_rationale_section | default("[More Information Needed]", true)}}
+There is no stated curation rationale for the creation of this dataset, and it would be good to question the dataset authors on their intent for its use. Presumably this dataset was created for purposes of mental health evaluation or to compare the prevalency of symptoms and resulting diagnoses, but this is an assumption.
 
 ### Source Data
 
@@ -82,13 +82,17 @@ The Normal category refers to the individuals using therapy time for specialized
 
 <!-- This section describes the data collection and processing process such as data selection criteria, filtering and normalization methods, tools and libraries used, etc. -->
 
-{{ data_collection_and_processing_section | default("[More Information Needed]", true)}}
+All of the data comes from patient information from a private psychology clinic. This data was processed into this dataset in Comma Separated Format (CSV) by the dataset curators. Patient information only included diagnoses for the four included diagnoses. It is unclear what selection processes were used to choose which patients with a specific diagnosis at the clinic would be included within this dataset. There also appear to be no further normalization/data tools used. Total frequencies of responses for symptom severity levels was simplified to percentages for each symptom. Further inquiry on the selection/processing choices could be directed to the dataset authors.
 
 #### Who are the source data producers?
 
 <!-- This section describes the people or systems who originally created the data. It should also include self-reported demographic or identity information for the source data creators if this information is available. -->
 
-{{ source_data_producers_section | default("[More Information Needed]", true)}}
+The source data producers are the patients at the psychology clinic. Their reported symptom severity alongside their formal diagnoses make up the entirety of the dataset. Personal data is anonymized making specific demographic information unknown. The dataset includes: 
+- 30 Normal
+- 28 Bipolar Type-1 (mania bipolar disorder)
+- 31 Bipolar Type-2 (depressive bipolar disorder)
+- 31 Depression (major depressive disorder)
 
 ### Annotations [optional]
 
@@ -134,10 +138,10 @@ Karbalaeipour, Hengameh; Damari, Siavash; Zolfagharnasab, Mohammad Hossein; Hagh
 
 <!-- If relevant, include terms and calculations in this section that can help readers understand the dataset or dataset card. -->
 
-- **Mania bipolar disorder (listed as Bipolar Type-1)** is defined by [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/9294-bipolar-disorder) as an individual who has experienced one or more episodes of mania, usually alongside an episode of depression lasting at least two weeks. Manic episodes must last at least seven days or require hospitalization for diagnosis. Mixed states are also possible for individuals to experience (both manic and depressive symptoms during an episode).
-- **Depressive bipolar disorder (listed as Bipolar Type-2)** is defined by [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/9294-bipolar-disorder) similarly to mania bipolar disorder with the experience of depressive and hypomanic episodes. Individuals will not experience a full manic episode as seen in mania bipolar disorder. Chronic depression is more common in depressive bipolar disorder versus mania bipolar disorder.
-- **Major depressive disorder (listed as Depression)** is defined by [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/24481-clinical-depression-major-depressive-disorder) as persistently low or depressed mood and a loss of interest in activities that one used to enjoy with symptoms lasting for at least two weeks. It is normally a chronic condition.
-- **Normal (listed as Normal)** is defined within this dataset as patients with minor symptoms but who did not warrant receiving a diagnosis.
+- ***Mania bipolar disorder* (listed as Bipolar Type-1)** is defined by [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/9294-bipolar-disorder) as an individual who has experienced one or more episodes of mania, usually alongside an episode of depression lasting at least two weeks. Manic episodes must last at least seven days or require hospitalization for diagnosis. Mixed states are also possible for individuals to experience (both manic and depressive symptoms during an episode).
+- ***Depressive bipolar disorder* (listed as Bipolar Type-2)** is defined by [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/9294-bipolar-disorder) similarly to mania bipolar disorder with the experience of depressive and hypomanic episodes. Individuals will not experience a full manic episode as seen in mania bipolar disorder. Chronic depression is more common in depressive bipolar disorder versus mania bipolar disorder.
+- ***Major depressive disorder* (listed as Depression)** is defined by [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/24481-clinical-depression-major-depressive-disorder) as persistently low or depressed mood and a loss of interest in activities that one used to enjoy with symptoms lasting for at least two weeks. It is normally a chronic condition.
+- ***Normal* (listed as Normal)** is defined within this dataset as patients with minor symptoms but who did not warrant receiving a diagnosis.
 
 
 ## More Information [optional]
@@ -150,6 +154,6 @@ The original data card was created by the original dataset authors as listed thr
 
 ## Dataset Card Contact
 
-- Original authors can be contacted through “Contact Owner” button on [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0FNET5)
+- Original dataset authors can be contacted through “Contact Owner” button on [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0FNET5)
 - Chirag Desai can be contacted through kaggle.com as user cid007
 - Michael Rinderle can be contacted through email at mjr246@case.edu
