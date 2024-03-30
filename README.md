@@ -71,7 +71,7 @@ This dataset is intended to showcase how patterns in symptoms can influence pati
 
 <!-- This section provides a description of the dataset fields, and additional information about the dataset structure such as criteria used to create the splits, relationships between data points, etc. -->
 
-The dataset was created using the Comma Separated Value (CSV) format. Patient responses and diagnoses are joined to the patient. Response types for specific symptoms was broken down in the following way:
+The dataset was created using the Comma Separated Value (CSV) format. Individual patients are tied to their symptoms and diagnoses. Response types for specific symptoms was broken down in the following way:
 - Reported *Sadness, Euphoric, Exhausted, and Sleep Disorder* values were reported in their frequency.
   - Values were either Usually, Most-often, Sometimes, or Seldom
 - Reported *Mood Swing, Suicidal Thoughts, Anorexia, Authority Respect, Try-Explanation, Aggressive Response, Ignore & Move On, Nervous Breakdown, Admit Mistakes, and Overthinking* values were reported as having occurred or not occurred recently.
