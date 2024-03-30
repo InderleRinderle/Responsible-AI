@@ -121,7 +121,7 @@ While there is not any direct annotation used on this dataset it should be noted
 
 <!-- State whether the dataset contains data that might be considered personal, sensitive, or private (e.g., data that reveals addresses, uniquely identifiable names or aliases, racial or ethnic origins, sexual orientations, religious beliefs, political opinions, financial or health data, etc.). If efforts were made to anonymize the data, describe the anonymization process. -->
 
-This dataset contains patient health data which is personal and sensitive information. All patients are anonymized, presented as "Patient-(number)" but it is unclear how these patients were randomly anonymized. The private psychology clinic likely was responsible for anonymizing the data before it was released for use within this dataest. The fact that the clinic is also never named helps further protect patient health data.
+This dataset contains patient health data which is personal and sensitive information. All patients are anonymized, presented as "Patient-(number)" but it is unclear how this was done or how the patients were numbered. The private psychology clinic was likely responsible for anonymizing the data before it was released for use within this dataset. The fact that the clinic is also not named helps further protect patient health data.
 
 ## Bias, Risks, and Limitations
 
