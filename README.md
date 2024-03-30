@@ -159,9 +159,12 @@ Karbalaeipour, Hengameh; Damari, Siavash; Zolfagharnasab, Mohammad Hossein; Hagh
 - ***Normal* (listed as Normal)** is defined within this dataset as patients with minor symptoms but who did not warrant receiving a diagnosis.
 
 
-## More Information [optional]
+## More Information
 
-{{ more_information | default("[More Information Needed]", true)}}
+It should be noted that overall there is ongoing debate and concern in regards to the current process to diagnose mental health disorders. Most psychiatric disorders (at least in the USA) are diagnosed using the Diagnostic and Statistical Manual of Mental Illnesses (DSM) created by the American Psychiatric Association. 
+
+Critics of the DSM claim that the lines between specific diagnoses are not clear or accurate, as highlighted by the large number of misdiagnoses in regards to mental health. Additionally, many factors may play a role in the symptoms an individual is experiencing beyond what is outlined in the DSM, which is why consultation with a medical professional is so important. As machine learning datasets continue to be used in the field of mental health disorders, it will be increasingly important to ensure careful implementation and a nuanced understanding of the nature of these disorders.
+
 
 ## Dataset Card Authors
 
