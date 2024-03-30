@@ -18,11 +18,19 @@
 
 {{ dataset_description | default("", true) }}
 
-- **Curated by:** {{ curators | default("yada yada", true)}}
-- **Funded by [optional]:** {{ funded_by | default("[More Information Needed]", true)}}
-- **Shared by [optional]:** {{ shared_by | default("[More Information Needed]", true)}}
-- **Language(s) (NLP):** {{ language | default("[More Information Needed]", true)}}
-- **License:** {{ license | default("[More Information Needed]", true)}}
+**Curated by:**
+  - **Karbalaeipour, Hengameh** (PhD, Department of Psychology, Science and Research Branch, Islamic Azad University, Tehran, Iran)
+  - **Damari, Siavash** (MSC, Department of Statistics, Mathematics, and Computer Science, University of Allameh Tabataba’i, Tehran, Iran)
+  - **Zolfagharnasab, Mohammad Hossein** (MSC, Department of Statistics, Mathematics, and Computer Science, University of Allameh Tabataba’i, Tehran, Iran)
+  - **Haghdadi, Amin** (MSC, Department of Statistics, Mathematics, and Computer Science, University of Allameh Tabataba’i, Tehran, Iran)
+
+**Funded by:** 
+
+It is unclear if this dataset was directly funded by an organization. It should be noted that all authors of the dataset were attending either the Islamic University or the University of Allameh Tabataba’i in Tehran, Iran. While it is expected that this dataset is in conjunction with the authors’ work at these universities, and is therefore funded in part through these organizations, further inquiry is possible by contacting the authors for more information through the “Contact Owner” button at [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0FNET5 ).
+
+**Language(s) (NLP):** fill in
+
+**License:** fill in
 
 ### Dataset Sources [optional]
 
