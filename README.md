@@ -95,7 +95,7 @@ There is no stated curation rationale for the creation of this dataset, and it w
 
 <!-- This section describes the data collection and processing process such as data selection criteria, filtering and normalization methods, tools and libraries used, etc. -->
 
-All of the data comes from patient information from a private psychology clinic. This data was processed into this dataset in Comma Separated Format (CSV) by the dataset curators. Patient information only included diagnoses for the four included diagnoses. It is unclear what selection processes were used to choose which patients with a specific diagnosis at the clinic would be included within this dataset. There also appear to be no further normalization/data tools used. Total frequencies of responses for symptom severity levels was simplified to percentages for each symptom. Further inquiry on the selection/processing choices could be directed to the dataset authors.
+All of the data comes from patient information from a private psychology clinic. This data was processed into this dataset in Comma Separated Format (CSV) by the dataset curators. Patient information only included diagnoses for the four included diagnoses. It is unclear what selection processes were used to choose which patients with a specific diagnosis at the clinic would be included within this dataset. There also appear to be no further normalization/data tools used. Total frequencies of responses for symptom severity levels was simplified to percentages for each symptom. Further inquiry on the selection/processing choices should be directed to the dataset authors.
 
 #### Who are the source data producers?
 
