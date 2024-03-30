@@ -8,7 +8,7 @@
 
 <!-- Provide a quick summary of the dataset. -->
 
-{{ dataset_summary | default("", true) }}
+This dataset consists of information from 120 patients who were diagnosed with mania bipolar disorder, depressive bipolar disorder, major depressive disorder, or normal (none of the others). It also includes the level of severity reported by patients for 17 symptoms related to the diagnoses.
 
 ## Dataset Details
 
@@ -16,7 +16,12 @@
 
 <!-- Provide a longer summary of what this dataset is. -->
 
-{{ dataset_description | default("", true) }}
+This dataset comprises 120 samples of patients diagnosed with either mania bipolar disorder, depressive bipolar disorder, and major depressive disorder as well as normal. All patient information was gathered from a private psychology clinic. The dataset also contains the patient severity levels for 17 essential symptoms that psychiatrists use to diagnose the described disorders. These symptoms include: 
+
+*Sadness, Exhaustness, Euphoric, Sleep disorder, Mood swings, Suicidal thoughts, Anorexia, Anxiety, Try-explaining, Nervous breakdown, Ignore & Move-on, Admitting mistakes, Overthinking, Aggressive response, Optimism, Sexual activity, and Concentration* 
+
+The Normal category refers to the individuals using therapy time for specialized counseling, personal development, and life skill enrichments. While such individuals may also have minor mental problems, they differ from those suffering from Major Depressive Disorder and Bipolar Disorder. All data is organized in a Comma Separated Value (CSV) format. (2023-10-02)
+
 
 - **Curated by:**
   - **Karbalaeipour, Hengameh** (PhD, Department of Psychology, Science and Research Branch, Islamic Azad University, Tehran, Iran)
@@ -25,11 +30,11 @@
   - **Haghdadi, Amin** (MSC, Department of Statistics, Mathematics, and Computer Science, University of Allameh Tabataba’i, Tehran, Iran)
 
 - **Funded by:**
-  - It is unclear if this dataset was directly funded by an organization. It should be noted that all authors of the dataset were attending either the Islamic University or the University of Allameh Tabataba’i in Tehran, Iran. While it is expected that this dataset is in conjunction with the authors’ work at these universities, and is therefore funded in part through these organizations, further inquiry is possible by contacting the authors for more information through the “Contact Owner” button at [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0FNET5 ).
+  - It is unclear if this dataset was directly funded by an organization. It should be noted that all authors of the dataset were attending either the Islamic University or the University of Allameh Tabataba’i in Tehran, Iran. While it is expected that this dataset is in conjunction with the authors’ work at these universities, and could be funded in part through these organizations, further inquiry is possible by contacting the authors for more information through the “Contact Owner” button at [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0FNET5 ).
 
-- **Language(s) (NLP):** fill in
+- **Language(s) (NLP):** Dataset information is written in English.
 
-- **License:** fill in
+- **License:** [CCO: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ### Dataset Sources
 
@@ -119,28 +124,32 @@
 
 {{ bias_recommendations | default("Users should be made aware of the risks, biases and limitations of the dataset. More information needed for further recommendations.", true)}}
 
-## Citation [optional]
+## Citation
 
 <!-- If there is a paper or blog post introducing the dataset, the APA and Bibtex information for that should go in this section. -->
 
-**APA:**
+Karbalaeipour, Hengameh; Damari, Siavash; Zolfagharnasab, Mohammad Hossein; Haghdadi, Amin, 2023, "A Collection of 120 Psychology Patients with 17 Essential Symptoms to Diagnose Mania Bipolar Disorder, Depressive Bipolar Disorder, Major Depressive Disorder, and Normal Individuals", https://doi.org/10.7910/DVN/0FNET5, Harvard Dataverse, V1
 
-{{ citation_apa | default("[More Information Needed]", true)}}
-
-## Glossary [optional]
+## Glossary
 
 <!-- If relevant, include terms and calculations in this section that can help readers understand the dataset or dataset card. -->
 
-{{ glossary | default("[More Information Needed]", true)}}
+- **Mania bipolar disorder (listed as Bipolar disorder 1)** is defined by [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/9294-bipolar-disorder) as an individual who has experienced one or more episodes of mania, usually alongside an episode of depression lasting at least two weeks. Manic episodes must last at least seven days or require hospitalization for diagnosis. Mixed states are also possible for individuals to experience (both manic and depressive symptoms during an episode).
+- **Depressive bipolar disorder (listed as Bipolar disorder 2)** is defined by [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/9294-bipolar-disorder) similarly to mania bipolar disorder with the experience of depressive and hypomanic episodes. Individuals will not experience a full manic episode as seen in mania bipolar disorder. Chronic depression is more common in depressive bipolar disorder versus mania bipolar disorder.
+- **Major depressive disorder (listed as Depression)** is defined by [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/24481-clinical-depression-major-depressive-disorder) as persistently low or depressed mood and a loss of interest in activities that one used to enjoy with symptoms lasting for at least two weeks. It is normally a chronic condition.
+- **Normal (listed as Normal)** is defined within this dataset as patients with minor symptoms but who did not warrant receiving a diagnosis.
+
 
 ## More Information [optional]
 
 {{ more_information | default("[More Information Needed]", true)}}
 
-## Dataset Card Authors [optional]
+## Dataset Card Authors
 
-{{ dataset_card_authors | default("[More Information Needed]", true)}}
+The original data card was created by the original dataset authors as listed through Harvard Dataverse. Further collaboration in converting the dataset and data card to kaggle.com was provided by Chirag Desai. Further edits alongside additional discussion, specifically in regards to bias, risks, limitations, and recommendations, provided by Michael Rinderle.
 
 ## Dataset Card Contact
 
-{{ dataset_card_contact | default("[More Information Needed]", true)}}
+- Original authors can be contacted through “Contact Owner” button on [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0FNET5)
+- Chirag Desai can be contacted through kaggle.com as user cid007
+- Michael Rinderle can be contacted through email at mjr246@case.edu
