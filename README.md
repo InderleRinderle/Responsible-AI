@@ -64,7 +64,13 @@ The Normal category refers to the individuals using therapy time for specialized
 
 <!-- This section provides a description of the dataset fields, and additional information about the dataset structure such as criteria used to create the splits, relationships between data points, etc. -->
 
-{{ dataset_structure | default("[More Information Needed]", true)}}
+The dataset was created using the Comma Separated Value (CSV) format. Patient responses and diagnoses are joined to the patient. Response types for specific symptoms was broken down in the following way:
+- Reported *Sadness, Euphoric, Exhausted, and Sleep Disorder* values were reported in their frequency
+  - Values were either Usually, Most-often, Sometimes, or Seldom
+- Reported *Mood Swing, Suicidal Thoughts, Anorexia, Authority Respect, Try-Explanation, Aggressive Response, Ignore & Move On, Nervous Breakdown, Admit Mistakes, and Overthinking* values were reported as having occurred or not occurred recently.
+  - Values were either Yes or No
+- Reported *Sexual Activity, Concentration, and Optimisim* values were reported on a scale.
+  - Values were reported on a scale of 1-10 out of 10
 
 ## Dataset Creation
 
@@ -94,7 +100,7 @@ The source data producers are the patients at the psychology clinic. Their repor
 - 31 Bipolar Type-2 (depressive bipolar disorder)
 - 31 Depression (major depressive disorder)
 
-### Annotations [optional]
+### Annotations
 
 <!-- If the dataset contains annotations which are not part of the initial data collection, use this section to describe them. -->
 
@@ -102,19 +108,13 @@ The source data producers are the patients at the psychology clinic. Their repor
 
 <!-- This section describes the annotation process such as annotation tools used in the process, the amount of data annotated, annotation guidelines provided to the annotators, interannotator statistics, annotation validation, etc. -->
 
-{{ annotation_process_section | default("[More Information Needed]", true)}}
-
-#### Who are the annotators?
-
-<!-- This section describes the people or systems who created the annotations. -->
-
-{{ who_are_annotators_section | default("[More Information Needed]", true)}}
+While there is not any direct annotation used on this dataset it should be noted that the original dataset was transferred onto [Kaggle](https://www.kaggle.com/datasets/cid007/mental-disorder-classification/data) by Chirag Desai. It is unclear if Chirag Desai further formatted the data into the easily digestible format that it is currently presented with on Kaggle.
 
 #### Personal and Sensitive Information
 
 <!-- State whether the dataset contains data that might be considered personal, sensitive, or private (e.g., data that reveals addresses, uniquely identifiable names or aliases, racial or ethnic origins, sexual orientations, religious beliefs, political opinions, financial or health data, etc.). If efforts were made to anonymize the data, describe the anonymization process. -->
 
-{{ personal_and_sensitive_information | default("[More Information Needed]", true)}}
+This dataset contains patient health data which is personal and sensitive information. All patients are anonymized, presented as "Patient-(number)" but it is unclear how these patients were randomly anonymized. The private psychology clinic likely was responsible for anonymizing the data before it was released for use within this dataest. The fact that the clinic is also never named helps further protect patient health data.
 
 ## Bias, Risks, and Limitations
 
