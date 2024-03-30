@@ -48,7 +48,7 @@ The Normal category refers to the individuals using therapy time for specialized
 
 <!-- Address questions around how the dataset is intended to be used. -->
 
-This dataset is intended to showcase patterns in symptoms can influence patient diagnoses for the disorders included within this dataset. However, due to the limited scope of this dataset, it should not be used as a tool to self-diagnose or diagnose others in regards to mental disorders.
+This dataset is intended to showcase how patterns in symptoms can influence patient diagnoses for the disorders included within this dataset. However, due to the limited scope of this dataset, it should not be used as a tool to self-diagnose or diagnose others in regards to mental disorders.
 
 ### Direct Use
 
