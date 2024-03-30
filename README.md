@@ -20,7 +20,7 @@ This dataset comprises 120 samples of patients diagnosed with either mania bipol
 
 *Sadness, Exhaustness, Euphoric, Sleep disorder, Mood swings, Suicidal thoughts, Anorexia, Anxiety, Try-explaining, Nervous breakdown, Ignore & Move-on, Admitting mistakes, Overthinking, Aggressive response,    Optimism, Sexual activity, and Concentration* 
 
-The Normal category refers to the individuals using therapy time for specialized counseling, personal development, and life skill enrichments. While such individuals may also have minor mental problems, they differ from those suffering from Major Depressive Disorder and Bipolar Disorder. All data is organized in a Comma Separated Value (CSV) format. (2023-10-02)
+The Normal category refers to the individuals using therapy time for specialized counseling, personal development, and life skill enrichments. While such individuals may also have minor mental problems, they differ from those suffering from major depressive disorder or bipolar disorder. All data is organized in a Comma Separated Value (CSV) format. (2023-10-02)
 
 
 - **Curated by:**
