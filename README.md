@@ -4,7 +4,7 @@
 {{ card_data }}
 ---
 
-# Dataset Card for {{ pretty_name | default("A Collection of 120 Psychology Patients with 17 Essential Symptoms to Diagnose Mania Bipolar Disorder, Depressive Bipolar Disorder, and Normal Individuals", true) }}
+# Dataset Card for "A Collection of 120 Psychology Patients with 17 Essential Symptoms to Diagnose Mania Bipolar Disorder, Depressive Bipolar Disorder, and Normal Individuals"
 
 <!-- Provide a quick summary of the dataset. -->
 
