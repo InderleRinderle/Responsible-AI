@@ -48,24 +48,31 @@ The Normal category refers to the individuals using therapy time for specialized
 
 <!-- Address questions around how the dataset is intended to be used. -->
 
+This dataset is intended to showcase patterns in symptoms can influence patient diagnoses for the disorders included within this dataset. However, due to the limited scope of this dataset, it should not be used as a tool to self-diagnose or diagnose others in regards to mental disorders.
+
 ### Direct Use
 
 <!-- This section describes suitable use cases for the dataset. -->
 
-{{ direct_use | default("[More Information Needed]", true)}}
+- This dataset could be used to find correlations between symptoms and diagnoses for the given disorders for this specific patient population. 
+- This dataset could be used to help highlight discrepancies in how this psychology clinic diagnoses its patients by comparing how symptom responses vary among patients who received the same diagnosis.
+- In conjunction with other more robust datasets regarding psychiatric diagnoses, this dataset could be used to try and identify larger trends between symptom severity and diagnosis outcome.
 
 ### Out-of-Scope Use
 
 <!-- This section addresses misuse, malicious use, and uses that the dataset will not work well for. -->
 
-{{ out_of_scope_use | default("[More Information Needed]", true)}}
+- There is not enough information from this dataset alone to attempt to procure a diagnosis for an individual based on their own responses to the observed symptoms.
+- Any discovered correlation between symptoms and diagnosis within this dataset alone should not be used to conclude broader patterns in psychiatry/psychology.
+- This dataset should not be used as a replacement for medical advice. For matters regarding mental health medical professionals should be consulted.
+
 
 ## Dataset Structure
 
 <!-- This section provides a description of the dataset fields, and additional information about the dataset structure such as criteria used to create the splits, relationships between data points, etc. -->
 
 The dataset was created using the Comma Separated Value (CSV) format. Patient responses and diagnoses are joined to the patient. Response types for specific symptoms was broken down in the following way:
-- Reported *Sadness, Euphoric, Exhausted, and Sleep Disorder* values were reported in their frequency
+- Reported *Sadness, Euphoric, Exhausted, and Sleep Disorder* values were reported in their frequency.
   - Values were either Usually, Most-often, Sometimes, or Seldom
 - Reported *Mood Swing, Suicidal Thoughts, Anorexia, Authority Respect, Try-Explanation, Aggressive Response, Ignore & Move On, Nervous Breakdown, Admit Mistakes, and Overthinking* values were reported as having occurred or not occurred recently.
   - Values were either Yes or No
