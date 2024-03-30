@@ -18,7 +18,7 @@ This dataset consists of information from 120 patients who were diagnosed with m
 
 This dataset comprises 120 samples of patients diagnosed with either mania bipolar disorder, depressive bipolar disorder, and major depressive disorder as well as normal. All patient information was gathered from a private psychology clinic. The dataset also contains the patient severity levels for 17 essential symptoms that psychiatrists use to diagnose the described disorders. These symptoms include: 
 
-*Sadness, Exhaustness, Euphoric, Sleep disorder, Mood swings, Suicidal thoughts, Anorexia, Anxiety, Try-explaining, Nervous breakdown, Ignore & Move-on, Admitting mistakes, Overthinking, Aggressive response, Optimism, Sexual activity, and Concentration* 
+*Sadness, Exhaustness, Euphoric, Sleep disorder, Mood swings, Suicidal thoughts, Anorexia, Anxiety, Try-explaining, Nervous breakdown, Ignore & Move-on, Admitting mistakes, Overthinking, Aggressive response,    Optimism, Sexual activity, and Concentration* 
 
 The Normal category refers to the individuals using therapy time for specialized counseling, personal development, and life skill enrichments. While such individuals may also have minor mental problems, they differ from those suffering from Major Depressive Disorder and Bipolar Disorder. All data is organized in a Comma Separated Value (CSV) format. (2023-10-02)
 
