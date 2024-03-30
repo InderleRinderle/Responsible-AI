@@ -131,7 +131,7 @@ This dataset contains patient health data which is personal and sensitive inform
 - Additionally, any demographic biases that may be present among patients are unknown and cannot be interpreted through this dataset due to the protected nature of patient information.
 - Furthermore, the dataset is relatively small for each diagnosis, and should not be considered comprehensive.
 - While the 17 symptoms listed provide a large scope, it is by no means enough information for overall diagnosis. Psychiatrists/psychologists look at a variety of factors alongside these self-reported symptoms when determining diagnosis for patients. This dataset does not encompass all of those other factors.
-  - Further information on the process to receive a diagnosis is outlined here by [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/mental-illness/diagnosis-treatment/drc-20374974).
+  - Further information on the process to receive a mental health disorder diagnosis is outlined by [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/mental-illness/diagnosis-treatment/drc-20374974).
 - The use of “normal” as a category within this dataset may be misleading as those patients may exhibit traits and behaviors that could lead to a different diagnosis beyond the three mentioned within this dataset.
 
 ### Recommendations
