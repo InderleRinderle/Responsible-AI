@@ -55,7 +55,7 @@ This dataset is intended to showcase how patterns in symptoms can influence pati
 <!-- This section describes suitable use cases for the dataset. -->
 
 - This dataset could be used to find correlations between symptoms and diagnoses for the given disorders for this specific patient population. 
-- This dataset could be used to help highlight discrepancies in how this psychology clinic diagnoses its patients by comparing how symptom responses vary among patients who received the same diagnosis.
+- This dataset could be used to evaluate discrepancies in how this psychology clinic diagnoses its patients by comparing how symptom responses vary among patients who received the same diagnosis.
 - In conjunction with other more robust datasets regarding psychiatric diagnoses, this dataset could be used to try and identify larger trends between symptom severity and diagnosis outcome.
 
 ### Out-of-Scope Use
